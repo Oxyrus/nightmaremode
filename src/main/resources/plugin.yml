@@ -1,0 +1,11 @@
+name: NightmareModePlugin
+version: '${project.version}'
+main: com.oxyrus.nightmaremode.NightmareModePlugin
+api-version: 1.19
+authors: [ Oxyrus ]
+description: This will make the creatures a tiny bit more difficult to kill
+website: https://github.com/Oxyrus
+commands:
+  nightmare:
+    usage: Run the command alongside enable/disable (/nightmare enable, /nightmare disable)
+    description: Enable the nightmare mode, to make creatures a tiny bit more difficult to be dealt with
